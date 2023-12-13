@@ -4,28 +4,14 @@
   "items": [
     {
       "link": null,
-      "menuName": "postamat4",
-      "caption": "Postamat4",
-      "title": "Postamat4",
+      "menuName": "постамат",
+      "caption": "Постамат",
+      "title": "Постамат",
       "children": [
-        {
-          "link": "i-i-s-postamat4-пользователь-l",
-          "menuName": null,
-          "caption": "Пользователь",
-          "title": "",
-          "children": null
-        },
         {
           "link": "i-i-s-postamat4-хранение-l",
           "menuName": null,
           "caption": "Хранение",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-postamat4-служба-доставки-l",
-          "menuName": null,
-          "caption": "Служба доставки",
           "title": "",
           "children": null
         },
@@ -35,19 +21,65 @@
           "caption": "Постамат",
           "title": "",
           "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "служба-доставки",
+      "caption": "Служба доставки",
+      "title": "Служба доставки",
+      "children": [
+        {
+          "link": "i-i-s-postamat4-служба-доставки-l",
+          "menuName": null,
+          "caption": "СлужбаДоставки",
+          "title": "Служба доставки",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "пользователь",
+      "caption": "Пользователь",
+      "title": "Пользователь",
+      "children": [
+        {
+          "link": "i-i-s-postamat4-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "Пользователь",
+          "children": null
         },
+        {
+          "link": null,
+          "menuName": "транзакция",
+          "caption": "Транзакция",
+          "title": "Транзакция",
+          "children": [
+            {
+              "link": "i-i-s-postamat4-транзакция-l",
+              "menuName": null,
+              "caption": "Транзакция",
+              "title": "Транзакция",
+              "children": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "логистика",
+      "caption": "Логистика",
+      "title": "Логистика",
+      "children": [
         {
           "link": "i-i-s-postamat4-логистика-l",
           "menuName": null,
           "caption": "Логистика",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-postamat4-транзакция-l",
-          "menuName": null,
-          "caption": "Транзакция",
-          "title": "",
+          "title": "Логистика",
           "children": null
         }
       ]

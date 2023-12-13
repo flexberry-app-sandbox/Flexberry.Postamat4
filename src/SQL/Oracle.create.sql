@@ -107,10 +107,6 @@ CREATE TABLE "Посылка"
 
 	"Статус" NVARCHAR2(10) NULL,
 
-	"Отправитель" NVARCHAR2(255) NULL,
-
-	"Получатель" NVARCHAR2(255) NULL,
-
 	"Транзакция" RAW(16) NOT NULL,
 
 	"Логистика" RAW(16) NOT NULL,

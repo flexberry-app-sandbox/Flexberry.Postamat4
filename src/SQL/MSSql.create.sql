@@ -92,10 +92,6 @@ CREATE TABLE [Посылка] (
 
 	 [Номер] INT  NULL,
 
-	 [Отправитель] VARCHAR(255)  NULL,
-
-	 [Получатель] VARCHAR(255)  NULL,
-
 	 [Статус] VARCHAR(10)  NULL,
 
 	 [Логистика] UNIQUEIDENTIFIER  NOT NULL,

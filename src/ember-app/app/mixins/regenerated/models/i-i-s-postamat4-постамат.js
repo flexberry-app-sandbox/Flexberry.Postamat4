@@ -59,7 +59,10 @@ export let defineProjections = function (modelClass) {
     ячейка: hasMany('i-i-s-postamat4-ячейка', 'Ячейка', {
       номерЯчейки: attr('Номер ячейки', { index: 0 }),
       хранение: belongsTo('i-i-s-postamat4-хранение', 'Хранение', {
-        номер: attr('Номер', { index: 2, hidden: true })
+        номер: attr('Номер', { index: 2, hidden: true }),
+        датаНачала: attr('Дата начала хранения', { index: 3 }),
+        датаЗавершения: attr('Дата завершения хранения', { index: 4 }),
+        продление: attr('Продлен заказ на 3 дня', { index: 5 })
       }, { index: 1, displayMemberPath: 'номер' })
     })
   });

@@ -28,12 +28,6 @@ public class Posylka {
     @Column(name = "Статус")
     private String статус;
 
-    @Column(name = "Отправитель")
-    private String отправитель;
-
-    @Column(name = "Получатель")
-    private String получатель;
-
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Tranzakciya")
     @Convert("Tranzakciya")
@@ -91,22 +85,6 @@ public class Posylka {
 
     public void setСтатус(String статус) {
       this.статус = статус;
-    }
-
-    public String getОтправитель() {
-      return отправитель;
-    }
-
-    public void setОтправитель(String отправитель) {
-      this.отправитель = отправитель;
-    }
-
-    public String getПолучатель() {
-      return получатель;
-    }
-
-    public void setПолучатель(String получатель) {
-      this.получатель = получатель;
     }
 
 

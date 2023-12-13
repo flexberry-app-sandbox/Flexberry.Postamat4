@@ -1,20 +1,20 @@
 ﻿{
   "propertyLookup": [
     {
-      "master": "транзакция",
-      "displayAttributeName": "время",
-      "required": true,
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
       "relationName": "Посылка.Транзакция",
       "projection": "ТранзакцияL",
-      "detailModelName": "i-i-s-postamat4-посылка"
+      "detailModelName": null
     },
     {
-      "master": "логистика",
-      "displayAttributeName": "информация",
-      "required": true,
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
       "relationName": "Посылка.Логистика",
       "projection": "ЛогистикаL",
-      "detailModelName": "i-i-s-postamat4-посылка"
+      "detailModelName": null
     }
   ],
   "external": false,

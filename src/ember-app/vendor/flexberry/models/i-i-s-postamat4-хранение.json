@@ -76,7 +76,7 @@
         },
         {
           "name": "продление",
-          "caption": "Продление",
+          "caption": "Продлен на 3 дня",
           "hidden": false,
           "index": 3
         }
@@ -116,7 +116,7 @@
         },
         {
           "name": "продление",
-          "caption": "Продление",
+          "caption": "Продлен на 3 дня",
           "hidden": false,
           "index": 3
         }

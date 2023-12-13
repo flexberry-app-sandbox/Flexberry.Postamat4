@@ -58,8 +58,6 @@ CREATE TABLE Посылка (
  primaryKey UUID NOT NULL,
  Номер INT NULL,
  Статус VARCHAR(10) NULL,
- Отправитель VARCHAR(255) NULL,
- Получатель VARCHAR(255) NULL,
  Транзакция UUID NOT NULL,
  Логистика UUID NOT NULL,
  Хранение UUID NOT NULL,

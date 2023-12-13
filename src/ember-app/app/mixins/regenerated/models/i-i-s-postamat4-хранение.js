@@ -54,18 +54,10 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     датаНачала: attr('Дата начала', { index: 1 }),
     датаЗавершения: attr('Дата завершения', { index: 2 }),
-    продление: attr('Продление', { index: 3 }),
+    продление: attr('Продлен на 3 дня', { index: 3 }),
     посылка: hasMany('i-i-s-postamat4-посылка', 'Посылка', {
       номер: attr('Номер', { index: 0 }),
-      статус: attr('Статус', { index: 1 }),
-      отправитель: attr('Отправитель', { index: 2 }),
-      получатель: attr('Получатель', { index: 3 }),
-      транзакция: belongsTo('i-i-s-postamat4-транзакция', 'Транзакция', {
-        время: attr('Время', { index: 5, hidden: true })
-      }, { index: 4, displayMemberPath: 'время' }),
-      логистика: belongsTo('i-i-s-postamat4-логистика', 'Логистика', {
-        информация: attr('Информация', { index: 7, hidden: true })
-      }, { index: 6, displayMemberPath: 'информация' })
+      статус: attr('Статус', { index: 1 })
     })
   });
 
@@ -73,6 +65,6 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     датаНачала: attr('Дата начала', { index: 1 }),
     датаЗавершения: attr('Дата завершения', { index: 2 }),
-    продление: attr('Продление', { index: 3 })
+    продление: attr('Продлен на 3 дня', { index: 3 })
   });
 };

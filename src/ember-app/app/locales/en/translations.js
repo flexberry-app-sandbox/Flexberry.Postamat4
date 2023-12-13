@@ -100,6 +100,50 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        постамат: {
+          caption: 'Постамат',
+          title: 'Постамат',
+          'i-i-s-postamat4-хранение-l': {
+            caption: 'Хранение',
+            title: ''
+          },
+          'i-i-s-postamat4-постамат-l': {
+            caption: 'Постамат',
+            title: ''
+          }
+        },
+        'служба-доставки': {
+          caption: 'Служба доставки',
+          title: 'Служба доставки',
+          'i-i-s-postamat4-служба-доставки-l': {
+            caption: 'СлужбаДоставки',
+            title: 'Служба доставки'
+          }
+        },
+        пользователь: {
+          caption: 'Пользователь',
+          title: 'Пользователь',
+          'i-i-s-postamat4-пользователь-l': {
+            caption: 'Пользователь',
+            title: 'Пользователь'
+          },
+          транзакция: {
+            caption: 'Транзакция',
+            title: 'Транзакция',
+            'i-i-s-postamat4-транзакция-l': {
+              caption: 'Транзакция',
+              title: 'Транзакция'
+            }
+          }
+        },
+        логистика: {
+          caption: 'Логистика',
+          title: 'Логистика',
+          'i-i-s-postamat4-логистика-l': {
+            caption: 'Логистика',
+            title: 'Логистика'
+          }
+        },
         postamat4: {
           caption: 'Postamat4',
           title: 'Postamat4',

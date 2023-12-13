@@ -58,6 +58,24 @@
               "caption": "Номер",
               "hidden": true,
               "index": 2
+            },
+            {
+              "name": "датаНачала",
+              "caption": "Дата начала хранения",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "датаЗавершения",
+              "caption": "Дата завершения хранения",
+              "hidden": false,
+              "index": 4
+            },
+            {
+              "name": "продление",
+              "caption": "Продлен заказ на 3 дня",
+              "hidden": false,
+              "index": 5
             }
           ],
           "index": 1,

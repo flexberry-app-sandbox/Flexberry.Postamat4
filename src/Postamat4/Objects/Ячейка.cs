@@ -31,7 +31,10 @@ namespace IIS.Postamat4
     [View("ЯчейкаE", new string[] {
             "НомерЯчейки as \'Номер ячейки\'",
             "Хранение as \'Хранение\'",
-            "Хранение.Номер as \'Номер\'"}, Hidden=new string[] {
+            "Хранение.Номер as \'Номер\'",
+            "Хранение.ДатаНачала as \'Дата начала хранения\'",
+            "Хранение.ДатаЗавершения as \'Дата завершения хранения\'",
+            "Хранение.Продление as \'Продлен заказ на 3 дня\'"}, Hidden=new string[] {
             "Хранение.Номер"})]
     [MasterViewDefineAttribute("ЯчейкаE", "Хранение", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
     public class Ячейка : ICSSoft.STORMNET.DataObject

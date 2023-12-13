@@ -34,10 +34,15 @@ namespace IIS.Postamat4
             "Отправитель as \'Отправитель\'",
             "Получатель as \'Получатель\'",
             "Транзакция as \'Транзакция\'",
-            "Транзакция.Время as \'Время\'",
+            "Транзакция.Номер as \'Номер транзакции\'",
+            "Транзакция.Пользователь as \'Пользователь\'",
+            "Транзакция.Пользователь.ФИО as \'ФИО пользователя\'",
             "Логистика as \'Логистика\'",
-            "Логистика.Информация as \'Информация\'"}, Hidden=new string[] {
-            "Транзакция.Время",
+            "Логистика.Состояние as \'Статус доставки\'",
+            "Логистика.Информация as \'Информация о доставке\'"}, Hidden=new string[] {
+            "Транзакция.Номер",
+            "Транзакция.Пользователь.ФИО",
+            "Логистика.Состояние",
             "Логистика.Информация"})]
     [MasterViewDefineAttribute("ПосылкаE", "Транзакция", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Время")]
     [MasterViewDefineAttribute("ПосылкаE", "Логистика", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Информация")]
@@ -47,10 +52,6 @@ namespace IIS.Postamat4
         private int fНомер;
         
         private IIS.Postamat4.Статус fСтатус;
-        
-        private string fОтправитель;
-        
-        private string fПолучатель;
         
         private IIS.Postamat4.Транзакция fТранзакция;
         
@@ -91,70 +92,6 @@ namespace IIS.Postamat4
                 // *** Start programmer edit section *** (Посылка.Номер Set end)
 
                 // *** End programmer edit section *** (Посылка.Номер Set end)
-            }
-        }
-        
-        /// <summary>
-        /// Отправитель.
-        /// </summary>
-        // *** Start programmer edit section *** (Посылка.Отправитель CustomAttributes)
-
-        // *** End programmer edit section *** (Посылка.Отправитель CustomAttributes)
-        [StrLen(255)]
-        public virtual string Отправитель
-        {
-            get
-            {
-                // *** Start programmer edit section *** (Посылка.Отправитель Get start)
-
-                // *** End programmer edit section *** (Посылка.Отправитель Get start)
-                string result = this.fОтправитель;
-                // *** Start programmer edit section *** (Посылка.Отправитель Get end)
-
-                // *** End programmer edit section *** (Посылка.Отправитель Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (Посылка.Отправитель Set start)
-
-                // *** End programmer edit section *** (Посылка.Отправитель Set start)
-                this.fОтправитель = value;
-                // *** Start programmer edit section *** (Посылка.Отправитель Set end)
-
-                // *** End programmer edit section *** (Посылка.Отправитель Set end)
-            }
-        }
-        
-        /// <summary>
-        /// Получатель.
-        /// </summary>
-        // *** Start programmer edit section *** (Посылка.Получатель CustomAttributes)
-
-        // *** End programmer edit section *** (Посылка.Получатель CustomAttributes)
-        [StrLen(255)]
-        public virtual string Получатель
-        {
-            get
-            {
-                // *** Start programmer edit section *** (Посылка.Получатель Get start)
-
-                // *** End programmer edit section *** (Посылка.Получатель Get start)
-                string result = this.fПолучатель;
-                // *** Start programmer edit section *** (Посылка.Получатель Get end)
-
-                // *** End programmer edit section *** (Посылка.Получатель Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (Посылка.Получатель Set start)
-
-                // *** End programmer edit section *** (Посылка.Получатель Set start)
-                this.fПолучатель = value;
-                // *** Start programmer edit section *** (Посылка.Получатель Set end)
-
-                // *** End programmer edit section *** (Посылка.Получатель Set end)
             }
         }
         
