@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Логистика",
+  "name": "IISPostamat4ЛогистикаE",
+  "className": "ЛогистикаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat4-логистика",
+      "modelProjection": "ЛогистикаE"
+    }
+  ]
+}

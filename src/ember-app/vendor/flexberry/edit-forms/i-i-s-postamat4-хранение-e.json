@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "транзакция",
+      "displayAttributeName": "время",
+      "required": true,
+      "relationName": "Посылка.Транзакция",
+      "projection": "ТранзакцияL",
+      "detailModelName": "i-i-s-postamat4-посылка"
+    },
+    {
+      "master": "логистика",
+      "displayAttributeName": "информация",
+      "required": true,
+      "relationName": "Посылка.Логистика",
+      "projection": "ЛогистикаL",
+      "detailModelName": "i-i-s-postamat4-посылка"
+    }
+  ],
+  "external": false,
+  "caption": "Хранение",
+  "name": "IISPostamat4ХранениеE",
+  "className": "ХранениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat4-хранение",
+      "modelProjection": "ХранениеE"
+    }
+  ]
+}
