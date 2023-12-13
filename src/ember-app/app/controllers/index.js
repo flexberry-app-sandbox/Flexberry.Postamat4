@@ -22,13 +22,12 @@ export default Controller.extend({
             link: 'i-i-s-postamat4-хранение-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat4-хранение-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat4-хранение-l.title'),
-            icon: 'chart bar',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-postamat4-постамат-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat4-постамат-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat4-постамат-l.title'),
-            icon: 'file',
             children: null
           }]
         }, {
@@ -40,7 +39,7 @@ export default Controller.extend({
             link: 'i-i-s-postamat4-служба-доставки-l',
             caption: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-postamat4-служба-доставки-l.caption'),
             title: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-postamat4-служба-доставки-l.title'),
-            icon: 'tasks',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -62,7 +61,7 @@ export default Controller.extend({
               link: 'i-i-s-postamat4-транзакция-l',
               caption: i18n.t('forms.application.sitemap.пользователь.транзакция.i-i-s-postamat4-транзакция-l.caption'),
               title: i18n.t('forms.application.sitemap.пользователь.транзакция.i-i-s-postamat4-транзакция-l.title'),
-              icon: 'book',
+              icon: 'calendar',
               children: null
             }]
           }]
@@ -75,7 +74,7 @@ export default Controller.extend({
             link: 'i-i-s-postamat4-логистика-l',
             caption: i18n.t('forms.application.sitemap.логистика.i-i-s-postamat4-логистика-l.caption'),
             title: i18n.t('forms.application.sitemap.логистика.i-i-s-postamat4-логистика-l.title'),
-            icon: 'file',
+            icon: 'phone',
             children: null
           }]
         }
